@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savory Spoon | Restaurant Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Savory<span>Spoon</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reservation">Reserve</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content fade-in">
+        <p class="section-tag">Fresh flavors every day</p>
+        <h1>Handmade meals for cozy evenings.</h1>
+        <p class="hero-text">Enjoy chef-crafted comfort food, seasonal ingredients, and a calm dining space made for friends, families, and special dates.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#reservation" class="btn btn-light">Book a Table</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="section-heading">
+        <p class="section-tag">Popular categories</p>
+        <h2>Pick your favorite plate</h2>
+      </div>
+      <div class="category-grid">
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" alt="Fresh pizza with basil">
+          <h3>Italian</h3>
+          <p>Wood-fired pizzas, pasta bowls, and herby sauces.</p>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=600&q=80" alt="Grilled burger with fries">
+          <h3>Burgers</h3>
+          <p>Juicy patties, toasted buns, and crispy sides.</p>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Colorful sushi rolls">
+          <h3>Sushi</h3>
+          <p>Fresh rolls, light bites, and bright dipping sauces.</p>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80" alt="Dessert bowl with fruit">
+          <h3>Desserts</h3>
+          <p>Sweet finishes made with fruit, cream, and chocolate.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="section-heading">
+        <p class="section-tag">Chef selection</p>
+        <h2>Our special menu</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80" alt="Healthy salad bowl">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Garden Fresh Bowl</h3>
+              <span>$12</span>
+            </div>
+            <p>Leafy greens, roasted chickpeas, avocado, and lemon dressing.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80" alt="Margherita pizza">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Classic Margherita</h3>
+              <span>$15</span>
+            </div>
+            <p>Tomato sauce, mozzarella, basil, and extra virgin olive oil.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=700&q=80" alt="Cheese burger">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Smoked Cheese Burger</h3>
+              <span>$14</span>
+            </div>
+            <p>Grilled beef, cheddar, house pickles, and smoky sauce.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80" alt="Pasta with vegetables">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Creamy Herb Pasta</h3>
+              <span>$16</span>
+            </div>
+            <p>Fresh pasta tossed with herbs, parmesan, and seasonal vegetables.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=700&q=80" alt="Colorful vegetable plate">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Roasted Veg Platter</h3>
+              <span>$13</span>
+            </div>
+            <p>Oven-roasted vegetables, hummus, olives, and warm flatbread.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80" alt="Pancakes with berries">
+          <div class="card-body">
+            <div class="menu-title">
+              <h3>Berry Brunch Stack</h3>
+              <span>$11</span>
+            </div>
+            <p>Soft pancakes with berries, honey butter, and maple syrup.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split about" id="about">
+      <div class="split-image">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Warm restaurant interior">
+      </div>
+      <div class="split-content">
+        <p class="section-tag">About us</p>
+        <h2>Simple food, cooked with care.</h2>
+        <p>Savory Spoon is a neighborhood restaurant focused on honest ingredients, balanced flavors, and warm service. Our kitchen prepares small batches daily so every plate feels fresh and thoughtful.</p>
+        <div class="stats">
+          <div>
+            <strong>12+</strong>
+            <span>Years serving</span>
+          </div>
+          <div>
+            <strong>45</strong>
+            <span>Menu items</span>
+          </div>
+          <div>
+            <strong>4.8</strong>
+            <span>Guest rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section chef">
+      <div class="section-heading">
+        <p class="section-tag">Meet our chef</p>
+        <h2>Led by Chef Amelia Carter</h2>
+      </div>
+      <div class="chef-card">
+        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=80" alt="Chef preparing food">
+        <div>
+          <h3>Seasonal cooking with a personal touch</h3>
+          <p>Chef Amelia builds each menu around local produce, clean flavors, and familiar dishes with a little restaurant magic.</p>
+          <a href="#reservation" class="btn btn-outline">Reserve a Seat</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing">
+      <div class="section-heading">
+        <p class="section-tag">Dining offers</p>
+        <h2>Easy pricing for every visit</h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Lunch Plate</h3>
+          <p class="price">$18</p>
+          <p>Main dish, side salad, and fresh drink.</p>
+        </article>
+        <article class="price-card featured">
+          <h3>Dinner Duo</h3>
+          <p class="price">$42</p>
+          <p>Two mains, shared dessert, and mocktails.</p>
+        </article>
+        <article class="price-card">
+          <h3>Family Table</h3>
+          <p class="price">$76</p>
+          <p>Four mains, two sides, and dessert platter.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="section-heading">
+        <p class="section-tag">Gallery</p>
+        <h2>Moments from our table</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Restaurant table setup">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Dinner plate with vegetables">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=600&q=80" alt="Chef plating food">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Restaurant dining area">
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading">
+        <p class="section-tag">Testimonials</p>
+        <h2>What guests say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>"The food tastes fresh, the staff is kind, and the place feels peaceful even on busy evenings."</p>
+          <h3>Riya Sharma</h3>
+          <span>Regular guest</span>
+        </article>
+        <article class="testimonial-card">
+          <p>"A lovely restaurant for celebrations. Their pasta and desserts are always perfect."</p>
+          <h3>Daniel Lee</h3>
+          <span>Food blogger</span>
+        </article>
+        <article class="testimonial-card">
+          <p>"Clean design, warm lighting, and a menu that has something delicious for everyone."</p>
+          <h3>Maya Wilson</h3>
+          <span>Local customer</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reservation" id="reservation">
+      <div class="section-heading">
+        <p class="section-tag">Reservation</p>
+        <h2>Book your table</h2>
+      </div>
+      <form class="reservation-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        </div>
+        <div class="form-group">
+          <label for="guests">Guests</label>
+          <select id="guests">
+            <option>2 Guests</option>
+            <option>3 Guests</option>
+            <option>4 Guests</option>
+            <option>5+ Guests</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Reserve Now</button>
+      </form>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-info">
+        <p class="section-tag">Contact</p>
+        <h2>Visit us this week</h2>
+        <p>128 Market Street, Food District<br>Open daily from 11:00 AM to 10:30 PM</p>
+        <p><strong>Phone:</strong> +1 555 014 7890</p>
+        <p><strong>Email:</strong> hello@savoryspoon.com</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+        <textarea rows="5" placeholder="Your message"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a href="#home" class="logo">Savory<span>Spoon</span></a>
+      <p>Fresh food, warm service, and memorable dining.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
